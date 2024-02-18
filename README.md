@@ -1,4 +1,4 @@
-# Documentación Chat Buho
+  # Documentación Chat Buho
 
 Repositorio de documentación de nuestro sistema omnicanal [Chat Buho](https://buho.la/chat/). Aquí encontrarás guías y tutoriales para maximizar el uso de nuestra plataforma. 
 
@@ -51,7 +51,7 @@ $ GIT_USER=<Your GitHub username> npm run deploy
 ```
 Este comando publica el contenido estatico a través de la rama `gh-pages`.
 
-Instrucciones que Segui:
+Instrucciones que Seguí:
 
 Primero descargar la carpeta del repositorio, guardarla en nuetra pc , abrir VSCode, colocar npm install luego npm start
 modificar la linea N° 66 que corresponde al "src:" etiqueta del logo. abrir el terminal y colocar npm run build luego npm run serve, luego crear el repositorio con el nombre de nuestro proyecto
