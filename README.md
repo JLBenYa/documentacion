@@ -50,3 +50,21 @@ Sin usar SSH:
 $ GIT_USER=<Your GitHub username> npm run deploy
 ```
 Este comando publica el contenido estatico a través de la rama `gh-pages`.
+
+Instrucciones que Segui:
+
+Primero descargar la carpeta del repositorio, guardarla en nuetra pc , abrir VSCode, colocar npm install luego npm start
+modificar la linea N° 66 que corresponde al "src:" etiqueta del logo. abrir el terminal y colocar npm run build luego npm run serve, luego crear el repositorio con el nombre de nuestro proyecto
+en este caso "documentacion" luego en el terminal colocar -git init, -git add . , git commit -m "test" .
+A continuacion cargamos nuestra carpeta local a nuestro repositorio con el comando:
+git remote add origin https://github.com/JLBenYa/documentacion.git
+git branch -M main
+git push -u origin main
+
+por ultimo creamos el git-hub page atravez del terminal:
+PS C:\Users\BenJack\Documents\GitHub\documentacion> cmd /C 'set "GIT_USER=JLBenYa" && npm run deploy'  
+
+Abrir el link https://jlbenya.github.io/documentacion/
+
+
+
