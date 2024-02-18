@@ -31,6 +31,7 @@ Este comando inicia un servidor de desarrollo local y abre una ventana del naveg
 ### Build
 
 ```
+-- Usar npm run build. almenos en Windows 10
 $ npm build
 ```
 Este comando genera contenido estático en el directorio `build` y se puede usar en cualquier hosting. Esta carpeta es ignorado en el repositorio.
